@@ -1,0 +1,71 @@
+body {
+color:white;
+background:black;
+margin:0px;
+font-family: "Ubuntu", sans-serif;
+margin-bottom: 100px;
+
+}
+
+header {
+border-bottom: solid 1px red;
+padding: 20px;
+font-size: 35px;
+font-style: italic;
+color:red;
+}
+
+.chamada{
+background-color: rgb(19, 18, 18);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+
+}
+
+.textinho {
+margin-right: 5%;
+margin-left: 3% ;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+height: 200px
+}
+
+.videos-variados {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.filmes-series {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    margin-top: 50px;
+}
+
+.filmes-series h2 { 
+    font-size: 30px;
+    color: red;
+    font-style: oblique;
+}
+
+.videos-variados img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.videos-variados img:hover {
+    opacity: 1;
+    border: 3px solid red;
+
+}
